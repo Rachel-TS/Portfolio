@@ -1,0 +1,139 @@
+html {
+    font-family: "Source Sans Pro", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-image: url(assets/motherboard-wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.page-header {
+    background-color: lightpink;
+}
+
+.nav-item {
+    text-decoration: none;
+    /*remove remove the default underline on link*/
+}
+
+.nav-item-hover {
+    color: steelblue;
+}
+
+.border {
+    border: solid 1px;
+    color: red;
+}
+
+.hero-image {
+    background-image: url("assets/lfz-logo.png");
+    background-color: #303b43;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    height: 350px;
+}
+
+.student-name {
+    font-size: 80px;
+    background-color: #303b43;
+    border-top: 5px double white;
+    border-bottom: 5px double white;
+}
+
+/*start of about section*/
+
+.about-section {
+    background-color: blanchedalmond;
+}
+
+.about-image {
+    max-height: 80%;
+    border: 2px solid slategray;
+}
+
+.text-align-reset {
+    text-align: initial;
+    /*resets center align set previously back to default (left)*/
+}
+
+/*start of tech section*/
+
+.tech-section {
+    background-color: lavenderblush;
+}
+
+/*start of projects section*/
+.project-section {
+    background-color: snow;
+}
+
+/*start of contact section*/
+.contact-section {
+    background-color: lightpink;
+    border-radius: 10px;
+}
+
+#contact-form {
+    display: flex;
+    /*place the 3 input in a row first*/
+    flex-direction: column;
+    /*then have them in a column*/
+}
+
+#contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkslategray;
+    color: white;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: cornflowerblue;
+}
